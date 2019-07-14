@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityA">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:outlineAmbientShadowColor="@color/cardview_light_background"
+        android:outlineSpotShadowColor="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WELOCOME TO ALC 4.0"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25sp"
+            android:layout_marginTop="12dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/about"
+            android:layout_width="129dp"
+            android:layout_height="wrap_content"
+            android:text="ABOUT ALC"
+            android:layout_gravity="center"
+            android:background="#ffd300"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            />
+
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/profile"
+            android:layout_width="129dp"
+            android:layout_height="wrap_content"
+            android:text="MY PROFILE"
+            android:layout_gravity="center"
+            android:background="#ffd300"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
